@@ -7,7 +7,7 @@
     setTimeout(() => {
       $('<button/>')
         .text('++')
-        .addClass('supchat-style')
+        // .addClass('supchat-style')
         .insertAfter('.sup-chats h1:last button:last')
         .click(() => {
           alert(1);
