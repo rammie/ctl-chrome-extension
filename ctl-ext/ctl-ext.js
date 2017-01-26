@@ -9,7 +9,8 @@
         .text('++')
         .addClass('supchat-style')
         .insertAfter('.sup-chats h1:last button:last')
-        .click(function() {
+        .click(() => {
+          alert(1);
           $('.convo-enlarge:contains(+)').click();
         });
 
